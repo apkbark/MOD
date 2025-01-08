@@ -1,0 +1,20 @@
+{
+  "name": "Notepad Secure",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Easy & Secure Offline Notepad",
+  "homepage_url": "https://apkbark.com/",
+  "icons": {
+    "16": "36.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/36.png",
+    "default_title": "browser action demo",
+    "default_popup": "browser_action.html"
+  }
+}
